@@ -2,7 +2,7 @@
 template: case-post
 title: Challenge UX/UI da Alura
 slug: /challenge-ux-ui-alura
-date: 2020-05-09T05:53:16.102Z
+date: 2022-04-02T05:53:16.102Z
 description: Desenvolvimento de uma feature de investimentos para aplicativo bancário, como metodologia de ensino dentro da formação em UX oferecida pela Alura
 featuredImage: /assets/alura-mkup/alurabranks-cover.png
 time: ABC
