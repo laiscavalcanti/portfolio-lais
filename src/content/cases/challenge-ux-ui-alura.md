@@ -11,8 +11,15 @@ tools: ABC
 client: ABC
 ---
 
-### CONTEXTO
 
+
+* #####  **Público** - 98 Alunos regulares da Escola de Design UX da plataforma Alura. Idade média do público desenvolvedor (25 a 30 anos)
+
+* ##### **Responsabilidades** - Planejamento e gerenciamento do projeto, moderação dos fóruns e suporte técnico, prototipagem.
+
+* ##### **Ferramentas usadas** - Figma, Miro, Trello, FigJam, Discord, Lottie Files 
+
+### CONTEXTO
 A Alura é uma das maiores plataformas de ensino no Brasil, com mais de 25.000 alunos em mais de 15 países e uma formação diversa que abrange Data Science, Design, Mobile, Devops, Gestão e Programação. Desde 2019, faço parte da equipe de Design UX da Alura, tendo a oportunidade de desenvolver não apenas formações em UX, mas experiências paralelas à formação regular também. Sem dúvida, uma das experiências mais marcantes foi a da “UI Alura Challenge” em fevereiro de 2022. 
 
 A partir de um case de negócios de uma empresa fictícia (a “Alura Banks”), os futuros desenvolvedores foram estimulados a construir soluções, e com o suporte técnico da equipe de UX, desenvolver seus primeiros protótipos que seriam mais tarde utilizados na construção de seus primeiros portfólios.
