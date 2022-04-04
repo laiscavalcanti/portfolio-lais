@@ -35,7 +35,6 @@ const About = () => (
             color: "inputBorder",
           }}
         >
-          Fale comigo sobre...
         </h3>
         <h2>
           {" "}
