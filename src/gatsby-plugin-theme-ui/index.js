@@ -4,10 +4,10 @@ import { lightness } from "@theme-ui/color"
 const theme = {
   colors: {
     ...defaultColors,
-    text: "#ffffff",
-    background: "#000C4B",
+    text: "#000C75",
+    background: "linear-gradient( #051937, #004d7a, #008793, #00bf72, #a8eb12)",
     primary: "#000C75",
-    accent: "#fff",
+    accent: "#000C75",
     muted: "rgba(0, 0, 0, 0.7)",
     cardBg: "#fff",
     borderColor: "#540229",
@@ -23,7 +23,7 @@ const theme = {
       dark: {
         text: "#f5f5f5",
         background: "#111",
-        primary: "#252525",
+        primary: "#0F80E8",
         accent: "#f5f5f5",
         muted: "rgba(255, 255, 255, 0.7)",
         cardBg: "#252525",

@@ -16,6 +16,7 @@ const Emoji = props => (
 const About = () => (
   <Layout className="thanks-page">
     <Seo title="About" />
+
     <div
       className="wrapper"
       style={{
@@ -23,19 +24,25 @@ const About = () => (
       }}
     >
       <div className="text-about">
-        <h1>
+        <h1  style={{
+        textAlign: "center",
+      }}>
           <Emoji symbol="✨" />
           Um pouco sobre mim
           <Emoji symbol="✨" />
         </h1>
-        <br></br>
+        <div className="container-resume"  >
+          <p className="text-resume">Acesse o meu </p>
+          <a className="resume" target="_blank" href="Resume_Lais.pdf">
+             Resume
+          </a>
+        </div>
         <br></br>
         <h3
           sx={{
             color: "inputBorder",
           }}
-        >
-        </h3>
+        ></h3>
         <h2>
           {" "}
           <Emoji symbol="🤓" /> Curiosa

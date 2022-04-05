@@ -134,7 +134,7 @@ const HomePage = ({ data }) => {
       <Seo />
       <div className="home-banner grids col-1 sm-2">
         <div className="container-cover">
-        <h1 className="title">{frontmatter.salutation}</h1>
+        <h1 className="title hover">{frontmatter.salutation}</h1>
           <h1 className="title">{frontmatter.title}</h1>
           <p
             className="tagline"
