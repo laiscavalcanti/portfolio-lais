@@ -261,8 +261,9 @@
 
 .post-card {
   padding: 16px;
-  border-left: 1px solid #8000ff;
-  border-right: 1px solid #8000ff;
+  border-left: 2px solid #8000ff;
+  border-right: 2px solid #8000ff;
+  border-top: 2px solid #8000ff;
   border-bottom: 4px solid #8000ff;
   background-color: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
@@ -297,8 +298,9 @@
   }
 
   &:hover {
-    border-left: 1px solid #0f80e8;
-    border-right: 1px solid #0f80e8;
+    border-top: 2px solid #0f80e8;
+    border-left: 2px solid #0f80e8;
+    border-right: 2px solid #0f80e8;
     border-bottom: 4px solid #0f80e8;
   }
 
