@@ -59,7 +59,7 @@ E em cima da pesquisa foi criada uma persona:
 
 ### FUNCIONALIDADE
 
-Nesse cenário fictício, resolvi desenvolver o projeto junto com os alunos, com o desafio de gerar uma nova funcionalidade em cima do perfil dos usuários e que irão utilizar a ALura Banks.
+Nesse cenário fictício, resolvi desenvolver o projeto junto com os alunos, com o desafio de gerar uma nova funcionalidade em cima do perfil dos usuários e que irão utilizar a Alura Banks.
 
 O projeto de referência escolhido foi uma feature de *investimentos da bolsa de valores* que desenvolvi ao longo das live-designs com os alunos através do Discord
 

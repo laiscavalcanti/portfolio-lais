@@ -79,7 +79,7 @@ export default Navigation
 const navStyle = {
   menu: {
     ul: {
-      bg: "transparent",
+      bg: "primary",
     },
   },
   theme: {
