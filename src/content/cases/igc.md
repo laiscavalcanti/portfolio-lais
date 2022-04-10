@@ -3,8 +3,8 @@ template: case-post
 title: Instituto de Geociências da UFMG
 slug: /instituto-de-geociencias-da-ufmg
 date: 2022-04-02T05:53:16.102Z
-description: Redesign e reestruturação do site do Instituto de Geociências da UFMG
-featuredImage: /assets/alura-mkup/alurabranks-cover.png
+description: Reformulação do site oficial do Instituto de Geociências da Universidade Federal de Minas Gerais.
+featuredImage: /assets/igc-mkup/icg-cover.png
 time: ABC
 role: ABC
 tools: ABC
@@ -22,96 +22,73 @@ client: ABC
 
 <div class="container-info"> 
 
-* #####  ***Público*** - 98 Alunos regulares da Escola de Design UX da plataforma Alura. Idade média do público desenvolvedor (25 a 30 anos)</p>
-
-* ##### ***Responsabilidades*** - Planejamento e gerenciamento do projeto, moderação dos fóruns e suporte técnico, prototipagem.
-
-* ##### ***Ferramentas usadas*** - Figma, Miro, Trello, FigJam, Discord, Lottie Files 
-
-* ##### ***Tempo*** - 6 Semanas - de Fevereiro a Março de 2022
+* ##### ***Público*** - Professores, Técnicos de TI, pesquisadores, discentes e público em geral interessado em informações sobre o IGC.
+* ##### ***Responsabilidades*** - Planejamento e gerenciamento do projeto, design UX/UI
+* ##### ***Ferramentas usadas*** -Trello, Figma, Wordpress, Google Meet. 
 </div>
 
-### CONTEXTO
-A Alura é uma das maiores plataformas de ensino no Brasil, com mais de 25.000 alunos em mais de 15 países e uma formação diversa que abrange Data Science, Design, Mobile, Devops, Gestão e Programação. Desde 2019, faço parte da equipe de Design UX da Alura, tendo a oportunidade de desenvolver não apenas formações em UX, mas experiências paralelas à formação regular também. Sem dúvida, uma das experiências mais interessantes foi a da *Challenge de UX/UI da Alura* em fevereiro a março de 2022. 
+### CONTEXTO 
 
-![Gravação das Aulas para o Challenge](/assets/alura-mkup/dktop-mk.png "Gravação das Aulas para o Challenge")
+Em Novembro de 2021 o coordenador do Instituto de Geociências da UFMG entrou em contato para ajudá-lo em uma missão: *renovar o site oficial do IGC, um projeto muito esperado por todo o corpo docente da instituição.* 
 
-A partir de um case de negócios de uma empresa fictícia (a *Alura Bank*), os futuros desginers UX/UI foram desafiados a construir soluções, e com o suporte técnico da equipe de UX, desenvolver seus primeiros protótipos que seriam mais tarde utilizados na construção de seus portfólios. O intuito desse projeto é desenvolver o lado prático dos alunos.
+O site do IGC não havia passado por nenhuma reformulação nos últimos oito anos e estava defasado em relação a novas tecnologias. Ele não era responsivo e foi desenvolvido em Joomla, uma linguagem que não tem mais aderência no mercado.
 
-Nesse projeto, participei como um das instrutoras, mentroras e na parte organizativa ao longo de um mês e meio.
+Mas não apenas isso. À medida que o volume de informações sobre simpósios, concursos e editais crescia, o site tornava-se cada vez mais confuso e difícil de ser mantido. Era preciso reformá-lo urgentemente e organizar toda a informação que residia lá.
 
+### PROBLEMA E SOLUÇÃO
 
-### PROBLEMA E SOLUÇÃO: ALURA BANKS
+Embora ambos os lados estivessem cientes do problema, havia vários obstáculos que tornavam o processo ainda mais desafiador. O orçamento era limitado e o tempo de execução também: era preciso ter as telas em 60 dias úteis, antes do recesso de final de ano da Universidade.
 
-Em nosso Challenge, desenhamos o seguinte cenário: 
+Além disso, não havia previsão orçamentária para o planejamento, mas apenas para a sua execução. Mesmo assim, fiz questão que se fizesse algum tipo de pesquisa com usuários. Desenvolvi proto-personas que serviram para validar algumas escolhas que seriam tomadas em relação ao design do site.
 
-A Alura Banks é uma empresa consolidada no ramo das Fintechs e, assim como os seus concorrentes, disponibiliza um aplicativo para seus usuários. Neste aplicativo, há funções básicas como: consulta de saldo, movimentações de dinheiro, pagamento de boletos, entre outros. Nos últimos 6 meses, porém, a empresa começou a perder clientes. O gerente de contas acompanhou o funil de engajamento e trouxe alguns pontos:  
+#### - Proto-persona
 
-![Problema Alura Banks](/assets/alura-mkup/info1.png "Problema Alura Banks")
+O públic-alvo do site está reunido entre estudantes, professores e corpo administrativo. Para isso, duas proto-personas foram criadas para vizualizarmos que seriam nossos usuários.
 
-A partir do problema, desenvolvemos uma pesquisa para entender mais sobre o perfil dos brasileiros que usam aplicativo de bancos. A pesquisa foi feita através do google forms e teve 81 respostas. Um resumo:
- 
-![Resumo da pesquisa](/assets/alura-mkup/research.png "Resumo da Pesquisa")
+Os estudantes que usam o site para se mater informado, acompanhar a agenda e acessar documentos do Instituto. 
 
-E em cima da pesquisa foi criada uma persona:
+![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/proto-persona-01.png "Proto-Persona focada no perfil dos estudantes do Instituto")
 
-![Persona](/assets/alura-mkup/persona.png "Persona")
+Para os funcionários, como administrativo e professores que irão ter acesso ao site para adicionar informações constantemente.
 
-### FUNCIONALIDADE
+![Proto-Persona focada no perfil dos professores e administrativo do Instituto](/assets/igc-mkup/proto-persona-02.png "Proto-Persona focada no perfil dos professores e administrativo do Instituto")
 
-Nesse cenário fictício, resolvi desenvolver o projeto junto com os alunos, com o desafio de gerar uma nova funcionalidade em cima do perfil dos usuários e que irão utilizar a Alura Banks.
+#### - Análise de outros sites
 
-O projeto de referência escolhido foi uma feature de *investimentos da bolsa de valores* que desenvolvi ao longo das live-designs com os alunos através do Discord
+Aqui, me dediquei a entender mais como outros sites de institutos de esnino funcionam. Desde como organizam de informação como a disposição dos elementos, testando todos os fluxos dos sites observando o layout. Alguns exemplos de sites que investiguei:
 
-Coordenei junto com os alunos um processo de *Desk Research* sobre o perfil do investidor brasileiro, dessa forma, pudemos conhecer o que estava sendo praticado em termos de investimentos, assim como por onde o investimento acontece.
+![Página principal do site do Institudo de Ciências Aplicadas da Unicamp](/assets/igc-mkup/apl.png "Página principal do site Ciências Aplicadas da Unicamp")
+![Página principal do site do Institudo de Matemática da UFMG](/assets/igc-mkup/mat.png "Página principal do site do Institudo de Matemática da UFMG")
 
-![Sobre o perfil de quem investe no Brasil](/assets/alura-mkup/charts.png "Sobre o perfil de quem investe no Brasil")
+#### - O site atual do IGC
 
-O próximo etapa foi fazer uma pesquisa de mercado para entender mais sobre outros bancos que trabalham com investimentos, como Itaú, Nubank e Caixa Econômica Federal.
+Desde o início tive consciência que o maior desafio seria reorganizar as informações de acordo com uma nova lógica. O site do IGC estava muito problemático: não havia um identidade visual bem definida, nem padrões nos elementos assim como hierarquia das informações -  era uma grande depósito de links.
 
-![Sobre os concorrentes](/assets/alura-mkup/info2.png "Sobre os concorrentes")
+![Página principal do site antigo do IGC](/assets/igc-mkup/site-atual.png "Página principal do site antigo do IGC")
 
-![Como a parte de investimento funcionada em cada app](/assets/alura-mkup/smartphones.png "Como a parte de investimento funcionada em cada app")
+![Página para biblioteca do site antigo do IGC](/assets/igc-mkup/site-atual-02.png "Página da biblioteca do site antigo do IGC")
 
+![Página para departamento do site antigo do IGC](/assets/igc-mkup/site-atual-04.png "Página para departamento do site antigo do IGC")
+
+Para me auxiliar com o desenvolvimento do site, contei com o trabalho de outro programador e a colaboração da equipe de TI do IGC. O Instituto criou ainda uma comissão de professores e técnicos para monitorar a execução do projeto. Foram realizadas quatro reuniões antes da apresentação e validação das telas do futuro site. 
 
 ### PROTÓTIPOS
 
-Nessa etapa, desenvolvi a parte de prototipação em cima de pesquisa feia entendendo como o fluxo da compra de uma ação funciona.
+A comissão do site que nos acompanhou ao longo do projeto, nos passou um documento que estavam dispostas as informações que eram necessárias estar no site. A partir de ínicio, fiz o sitemap:
 
-Segue o fluxo do usuário dentro do aplicativo da *Alura Banks*, desde o login até a compra de uma ação.
+![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/sitemap.png "Proto-Persona focada no perfil dos estudantes do Instituto")
 
-![Sitemap](/assets/alura-mkup/sitemap-alurabanks.png "Sitemap")
+Depois, desenvolvemos o protótipo de baixa fidelidade, os wireframes. 
 
+![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/wire.png "Proto-Persona focada no perfil dos estudantes do Instituto")
 
-Depois, desenvolvemos o protótipo de baixa fidelidade, os *wireframes*.
-![Wireframes](/assets/alura-mkup/wirepng.png "Wireframes")
-
-Já a etapa de Style Guide foi uma das quais mais gerou engakamento e dúvidas por parte dos alunos, por terem dificuldades em desenvolver essa etapa do projeto.
-
-![Style Guide](/assets/alura-mkup/mockup.png "Style Guide")
-
-Finalmente, desenvolvi a documentação do protótipo, as telas que demonstram como o será o produto final.
-
-![Protótipo de Alta FIdelidade](/assets/alura-mkup/mk-01.png "Protótipo de Alta FIdelidade")
-![Protótipo de Alta FIdelidade](/assets/alura-mkup/mk-02.png "Protótipo de Alta FIdelidade")
-![Protótipo de Alta FIdelidade](/assets/alura-mkup/mk-03.png "Protótipo de Alta FIdelidade")
-
-### PROCESSO E SUPORTE
-
-Uma preocupação da equipe no momento de elaborar o estudo de caso era o de deixá-lo amplo o suficiente para que os alunos tivessem a total liberdade de experimentar e sugerir novas funcionalidades.
-
-![Live de Monitoria](/assets/alura-mkup/dktop-mk-02.png "Live de Monitoria")
-
-Para auxiliá-los nesse processo, conduzimos uma série de live-designs através dos canais de voz e vídeo do Discord. Logo nos primeiros encontros, percebemos que os alunos estavam encontrando dificuldades para pôr em prática as suas ideias.  Por isso, sugeri o desenvolvimento de um protótipo de referência “do zero”, para que os alunos pudessem acompanhar em tempo real todas as etapas de um projeto em UX, do planejamento à execução, desde o *sitemap* até o *hand off*.
+![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/style-guide.png "Proto-Persona focada no perfil dos estudantes do Instituto")
 
 
 
-
-### REFLEXÃO
-
-![Live de Encerramento](/assets/alura-mkup/dktop-mk-04.png "Live de Encerramento")
+Em seguida, trabalhei na identidade visual que o site teria a partir da logo oficial do instituto. As cores da logo foram meu ponto de partida para definir as que iriam compor o layout.
 
 
-O *Challenge* foi um sucesso incontestável, com mais de 30 protótipos desenvolvidos ao final do percurso. Os alunos se sentiram orgulhosos por conseguirem se organizar em grupos e conduzir um projeto em UX do início ao fim, e todos eles incluíram os protótipos em seus portfólios. Pessoalmente, o projeto foi um marco porque me permitiu não apenas aprofundar em habilidades de em UX, mas colocar em prática muito que aprendi a respeito de gestão e didática na Alura. O aplicativo da *Alura Banks* tem uma interface amigável e consegue traduzir um processo às vezes intimidador, como a compra de ações, em um procedimento intuitivo e prazeroso. 
+### REFLEXÕES
 
-
+É sempre um desafio tornar um site institucional intuitivo e claro para o público não especializado. Mais difícil ainda é fazê-lo e ao mesmo tempo organizar um volume considerável de informações como o do Instituto de Geociências. Mesmo com todas as dificuldades, a comissão aprovou os protótipos com unanimidade. O site está em fase de desenvolvimento, com previsão para ser lançado em abril de 2022.
