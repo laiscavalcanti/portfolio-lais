@@ -96,7 +96,7 @@ O próximo passo foi criar as telas de alta fidelidade. Foi um processo constru�
 
 Tivemos o cuidado em organizar a informação em páginas como departamento e graduação que contém muito conteúdo. Foi um desafio organizar as informações para que ficassem dispostas de forma clara e que comteplasse todo o conteúdo que cada página precisa ter.
 
-![Tela de um depertamento](https://i.imgur.com/sEikzZ5.gif "Tela de um depertamento")
+![Tela de um depertamento](https://i.imgur.com/4ZhsHim.gif "Tela de um depertamento")
 
 ### REFLEXÕES
 
