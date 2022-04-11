@@ -33,7 +33,7 @@ const About = () => (
         </h1>
         <div className="container-resume"  >
           <p className="text-resume">Acesse o meu </p>
-          <a className="resume" target="_blank" href="Resume_Lais.pdf">
+          <a className="resume" target="_blank" href="https://www.notion.so/Oi-eu-sou-a-La-s-89bae84e44434622a42eeb3c8c65f3af">
              Resume
           </a>
         </div>
