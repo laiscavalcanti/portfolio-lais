@@ -76,19 +76,28 @@ Para me auxiliar com o desenvolvimento do site, contei com o trabalho de outro p
 
 A comissão do site que nos acompanhou ao longo do projeto, nos passou um documento que estavam dispostas as informações que eram necessárias estar no site. A partir de ínicio, fiz o sitemap:
 
-![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/sitemap.png "Proto-Persona focada no perfil dos estudantes do Instituto")
+![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/sitemap.png "Sitemap")
 
 Depois, desenvolvemos o protótipo de baixa fidelidade, os wireframes. 
 
 ![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/wire.png "Proto-Persona focada no perfil dos estudantes do Instituto")
 
-![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/style-guide.png "Proto-Persona focada no perfil dos estudantes do Instituto")
-
-
-
 Em seguida, trabalhei na identidade visual que o site teria a partir da logo oficial do instituto. As cores da logo foram meu ponto de partida para definir as que iriam compor o layout.
 
+![Proto-Persona focada no perfil dos estudantes do Instituto](/assets/igc-mkup/style-guide.png "Proto-Persona focada no perfil dos estudantes do Instituto")
+
+Os componentes criados no style-guide foi adicionada em uma página do style onde e acessado o código referente ao componente:
+
+![Página de componentes no site](https://i.imgur.com/sEikzZ5.gif "Página de componentes no site")
+
+O próximo passo foi criar as telas de alta fidelidade. Foi um processo construído e aprovado pela comissão do site do IGC:
+
+![Tela Principal do Site](https://i.imgur.com/iT1oppH.gif "Tela Principal do Site")
+
+Tivemos o cuidado em organizar a informação em páginas como departamento e graduação que contém muito conteúdo. Foi um desafio organizar as informações para que ficassem dispostas de forma clara e que comteplasse todo o conteúdo que cada página precisa ter.
+
+![Tela de um depertamento](https://i.imgur.com/sEikzZ5.gif "Tela de um depertamento")
 
 ### REFLEXÕES
 
-É sempre um desafio tornar um site institucional intuitivo e claro para o público não especializado. Mais difícil ainda é fazê-lo e ao mesmo tempo organizar um volume considerável de informações como o do Instituto de Geociências. Mesmo com todas as dificuldades, a comissão aprovou os protótipos com unanimidade. O site está em fase de desenvolvimento, com previsão para ser lançado em abril de 2022.
+É sempre um desafio tornar um site institucional intuitivo e claro para o público não especializado. Mais difícil ainda é fazê-lo e ao mesmo tempo organizar um volume considerável de informações como o do Instituto de Geociências. Mesmo com todas as dificuldades, a comissão aprovou os protótipos com unanimidade. O site está em fase de desenvolvimento, com previsão para ser lançado em Maio/Junho de 2022.
