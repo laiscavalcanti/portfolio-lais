@@ -24,17 +24,23 @@ const About = () => (
       }}
     >
       <div className="text-about">
-        <h1  style={{
-        textAlign: "center",
-      }}>
+        <h1
+          style={{
+            textAlign: "center",
+          }}
+        >
           <Emoji symbol="✨" />
           Um pouco sobre mim
           <Emoji symbol="✨" />
         </h1>
-        <div className="container-resume"  >
+        <div className="container-resume">
           <p className="text-resume">Acesse o meu </p>
-          <a className="resume" target="_blank" href="https://www.notion.so/Oi-eu-sou-a-La-s-89bae84e44434622a42eeb3c8c65f3af">
-             Resume
+          <a
+            className="resume"
+            target="_blank"
+            href="https://www.notion.so/Oi-eu-sou-a-La-s-89bae84e44434622a42eeb3c8c65f3af"
+          >
+            Resume
           </a>
         </div>
         <br></br>
@@ -67,18 +73,18 @@ const About = () => (
           <Emoji symbol="💾" /> Programação
         </h2>
         <p>
-          Sempre tive o hábito de leitura desde jovem. Tento manter um fluxo de
-          leitura de livros constante alternando entre técnicos e literários.
-          Esse interesse me levou a me formar no curso de Letras em 2014.
+          Como desdobramento de meu curso superior em “Análise e Desenvolvimento
+          de Sistemas” tive experiências de trabalho em que pude aplicar meus
+          conhecimentos em desenvolvimento web e arquitetura de informação, com
+          foco em front-end e Javascript.
         </p>
         <h2>
           <Emoji symbol="📚" /> Livros
         </h2>
         <p>
-          Como desdobramento de meu curso superior em “Análise e Desenvolvimento
-          de Sistemas” tive experiências de trabalho em que pude aplicar meus
-          conhecimentos em desenvolvimento web e arquitetura de informação, com
-          foco em front-end e Javascript.
+          Sempre tive o hábito de leitura desde jovem. Tento manter um fluxo de
+          leitura de livros constante alternando entre técnicos e literários.
+          Esse interesse me levou a me formar no curso de Letras em 2015.
         </p>
         <h2>
           <Emoji symbol="🎷" /> Música
