@@ -60,7 +60,7 @@ const About = () => (
           conteúdo.
         </p>
         <h2>
-          <Emoji symbol="☂️" /> Desing UX/UI
+          <Emoji symbol="☂️" /> Design UX/UI
         </h2>
         <p>
           Tendo partido de um background de desenvolvimento, percebi o quão é
