@@ -3,7 +3,7 @@ template: case-post
 title: Case - Hermes
 slug: /case-hermes
 date: 2022-06-16T05:53:16.102Z
-description: Desenvolvimento de um case para um processo seletivo
+description: Desenvolvimento de um case para estudo
 featuredImage: /assets/case-hermes/hermes.png
 time: ABC
 role: ABC

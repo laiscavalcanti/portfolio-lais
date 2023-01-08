@@ -12,7 +12,7 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-        @2022 Laís Cavalcanti 
+        @2023 Laís Cavalcanti 
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}

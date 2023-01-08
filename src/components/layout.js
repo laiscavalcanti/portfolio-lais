@@ -34,12 +34,12 @@ const Layout = ({ children, className, props }) => {
         <Logo title={siteTitle} />
         <div sx={layoutStyle.nav}>
           <div sx={{ display: ["flex", "flex", "flex", "none"] }}>
-            <Search searchIndex={siteSearchIndex.index} />
+           
           </div>
           <Navigation />
         </div>
         <div sx={layoutStyle.appearance}>
-          <Search searchIndex={siteSearchIndex.index} />
+          
           <Theme />
         </div>
       </Header>

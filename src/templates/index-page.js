@@ -5,7 +5,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine, RiLinkedinBoxFill, RiSpotifyFill, RiTelegramFill, RiGithubFill, RiMessage3Fill } from "react-icons/ri"
 
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
+
 import CaseListHome from "../components/case-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
@@ -31,28 +31,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    posts: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
-      limit: 6
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
-              }
-            }
-          }
-        }
-      }
-    }
+   
     cases: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "case-post" } } }
@@ -173,7 +152,8 @@ const HomePage = ({ data }) => {
           </div>
         </div>
         <div>
-          {Image ? (
+        <div className="background" ></div>
+          {Image ? (   
             <GatsbyImage
               image={Image}
               alt={frontmatter.title + " - Featured image"}
@@ -185,7 +165,7 @@ const HomePage = ({ data }) => {
         </div>
       </div>
       <CaseListHome data={cases} />
-      <BlogListHome data={posts} />
+     
     </Layout>
   )
 }

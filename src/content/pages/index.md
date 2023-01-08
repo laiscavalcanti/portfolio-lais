@@ -2,7 +2,7 @@
 template: index-page
 slug: /
 salutation: Olá, eu sou Laís 
-title: Designer UX/UI brasileira
+title: Product Designer
 tagline: .
 featuredImage: /assets/profile2.jpg
 cta:
